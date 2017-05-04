@@ -13,9 +13,6 @@ tidynumber = 0
 #that number is tidy.
 
 for text in file[1:integer]:
-    #print("Case #" + str(Case) + ": ")#final string
-    #for number in range(int(text),0,-1): #my iterator going through numbers down
-
     #checking for number ending in 0??
     if (str(text)[-1:]) == str(0) and (str(text)[-2:]) == str(1):
         string = 1
